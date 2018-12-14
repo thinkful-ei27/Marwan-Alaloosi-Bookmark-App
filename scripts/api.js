@@ -33,7 +33,7 @@ const updateBookmark = function(id, updateData, callback){
     });
 }
 
-const deleteBookmark = function(id, callback) {
+const removeBookmark = function(id, callback) {
     $.ajax({
       url: `${BASE_URL}/bookmarks/${id}`,
       method: 'DELETE',
@@ -48,6 +48,6 @@ BASE_URL,
 createBookmark,
 getBookmarks,
 updateBookmark,
-deleteBookmark
+removeBookmark
     }
 }())
