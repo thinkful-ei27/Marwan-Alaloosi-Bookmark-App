@@ -1,0 +1,557 @@
+
+button{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+header {
+    margin-bottom: 40px;
+    height: 100px;
+    padding: 20px;
+    border-bottom: .5px black solid;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #252525;
+  }
+  
+  
+  button:hover {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .error-container {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* .delete-all {
+    margin-top: 10px;
+  } */
+  
+  .label {
+    margin-left: 12px;
+    padding-right: 3px;
+  }
+  
+  .radio-button {
+    margin-left: 10px;
+  }
+  
+  .new-form {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    height: auto;
+    border: solid black 2px;
+  }
+  
+  .top-options {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+    height: auto;
+    text-align: center;
+  }
+  
+  .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button, .show-new-bookmark-box {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  
+  .new-bookmark-button {
+    margin-bottom: 10px;
+  }
+  
+  .radio-title {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .rating-filter-title, .drop-down-menu, .filter-bookmarks-submit {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .stored-bookmarks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .header h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+  
+  
+  .row3 {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .row1, .row2 {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border: black 2px solid;
+  
+  }
+  
+  .name-desc-box {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding-right: 35px;
+    text-align: center;
+  }
+  
+  .bookmark-name {
+    font-size: 35px;
+  }
+  
+  .desc {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  
+  .links {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  
+  .link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .delete-bookmark, .reduce, .expand {
+    width: 150px;
+  }
+  
+  .delete-button {
+    float: right;
+  }
+  
+  .delete-button:hover {
+    cursor: pointer;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .rating {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-bookmark-title {
+    margin-bottom: 20px;
+  }
+  
+  .edit-radio-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-bookmark-url, .edit-bookmark-desc {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 1250px) {
+  
+    header {
+      margin-bottom: 20px;
+      height: 100px;
+      padding: 20px;
+      border-bottom: .5px black solid;
+    }
+       
+    body {
+      font-family: "Roboto", sans-serif;
+      color: #252525;
+    }
+  
+    .new-form {
+      display: inline-block;
+      text-align: left;
+      width: 80%;
+      height: auto;
+      border: solid black 2px;
+      margin-bottom: 10px;
+    }
+    
+    .top-options {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-bottom: 20px;
+      height: auto;
+      text-align: center;
+    }
+    
+    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button {
+      margin-bottom: 5px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    
+    .new-bookmark-button {
+      margin-bottom: 10px;
+    }
+    
+    .radio-title {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .rating-filter-title, .drop-down-menu, .filter-bookmarks-submit {
+      margin-bottom: 5px;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .stored-bookmarks {
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+    }
+       
+    .header h1 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 50px;
+      padding-top: 20px;
+    }
+     
+  
+    .row3 {
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+  
+    .row1, .row2 {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-bottom: 40px;
+      border: black 2px solid;
+    }
+  
+    .name-desc-box {
+      display: inline-block;
+      width: 90%;
+      height: auto;
+      padding-left: 20px;
+      text-align: center;
+    }
+  
+    .desc {
+      font-size: 16px;
+    }
+  
+    .bookmark-name {
+      font-size: 25px;
+    }
+  
+    .links {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+  
+  
+    .link {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+  
+    .link:hover {
+      text-decoration: underline;
+    }
+  
+    .delete {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .delete-bookmark, .reduce, .expand {
+      width: 100px;
+    }
+  
+    .delete-bookmark:hover {
+      background-color: red;
+      cursor: pointer;
+    }
+  
+    .checked {
+      color: orange;
+    }
+  
+    .rating {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .edit-bookmark-title, .edit-bookmark-desc {
+      margin-bottom: 20px;
+    }
+  
+    .edit-radio-buttons {
+      margin-bottom: 20px;
+    }
+  
+    .edit-bookmark-url {
+      margin-bottom: 10px;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 700px) {
+      
+    header {
+      margin-bottom: 20px;
+      height: 100px;
+      padding: 20px;
+      border-bottom: .5px black solid;
+      }
+      
+    body {
+      font-family: "Roboto", sans-serif;
+      color: #252525;
+    }
+  
+    .new-form {
+      display: inline-block;
+      text-align: left;
+      width: 100%;
+      height: auto;
+      border: solid black 2px;
+    }
+    
+    .top-options {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-bottom: 20px;
+      height: auto;
+      text-align: center;
+    }
+    
+    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button {
+      margin-bottom: 5px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .new-bookmark-desc {
+      width: 200px;
+    }
+  
+    .edit-radio-buttons {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .new-bookmark-button {
+      margin-bottom: 10px;
+    }
+    
+    .radio-title {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .rating-filter-title, .drop-down-menu, .filter-bookmarks-submit {
+      margin-bottom: 5px;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .stored-bookmarks {
+      position: relative;
+      left: -35px;
+      width: 100%;
+    }
+      
+    .header h1 {
+      margin-top: 0;
+      padding-top: 30px;
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    .row3 {
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .row1, .row2 {
+      border: black 2px solid;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+      height: auto;
+      padding-bottom: 40px;
+    }
+  
+    .name-desc-box {
+      position: relative;
+      display: block;
+      width: 90%;
+      height: auto;
+      right: 10px;
+    }
+  
+    .desc {
+      font-size: 16px;
+    }
+  
+    .bookmark-name {
+      font-size: 22px;
+    }
+  
+    .checked {
+      color: orange;
+    }
+  
+    .links {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+  
+  
+    .link {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+  
+    .link:hover {
+      text-decoration: underline;
+    }
+  
+    .delete {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .reduce, .expand {
+      margin-bottom: 10px;
+    }
+  
+    .edit-bookmark-title, .edit-bookmark-desc {
+      margin-bottom: 20px;
+    }
+  
+    .edit-radio-buttons {
+      margin-bottom: 20px;
+    }
+  
+    .edit-bookmark-url {
+      margin-bottom: 10px;
+    }
+  
+  
+  
+    .edit-button {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+  
+  
+    .delete-button {
+      position: relative;
+      width: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .change-button {
+      width: 60px;
+      text-align: center;
+    }
+  
+    .submit-edit-button {
+      margin-bottom: 15px;
+      float: left;
+    }
+  
+    .delete-bookmark, .reduce, .expand {
+      width: 100px;
+    }
+  
+    .delete-bookmark:hover {
+      background-color: red;
+      cursor: pointer;
+    }
+  
+    .rating {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .edit-form {
+      position: relative;
+      right: 20px;
+    }
+  
+  }
+
+

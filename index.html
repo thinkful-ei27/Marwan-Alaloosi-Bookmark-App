@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Bookmark-project</title>
+</head>
+
+<body>
+    <header role="banner">
+        <div class="header">
+            <div class="row3">
+                <h1>My Bookmarks</h1>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="new-information">
+            <div class="err-container"></div>
+            <div class="boomark-box">
+                <div class="new-box">
+                    <button name="show-new-bookmark-box" type="submit" class="add-new-bookmark">
+                        Add a bookmark
+                    </button>
+                </div>
+                <!-- <label for="stars-filter-title" class="stars-filter-title">Filter by rating</label> -->
+                <button type="submit" class="filter-bookmarks">Filter by rate</button><br />
+
+                <select id="drop-down-menu">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <!-- <button name="delete" type="submit" class="delete">
+                    Delete 
+                </button> -->
+            </div>
+        </section>
+
+            <ul class="stored-bookmarks"></ul>
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts/store.js"></script>
+    <script type="text/javascript" src="scripts/bookmark-list.js"></script>
+    <script type="text/javascript" src="scripts/api.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+
+</html>
