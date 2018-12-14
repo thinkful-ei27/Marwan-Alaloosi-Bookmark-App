@@ -1,10 +1,8 @@
+/*  */
 
-button{
-    color: white;
-    background-color: blue;
-    cursor: pointer;
+.img-container {
+  text-align: center;
 }
-
 header {
     margin-bottom: 40px;
     height: 100px;
@@ -19,12 +17,12 @@ header {
   
   
   button:hover {
-    background-color: red;
+    background-color: orange;
     border: 1px solid white;
     color: white;
   }
   
-  .error-container {
+  .err-container {
     text-align: center;
   }
   
@@ -32,28 +30,20 @@ header {
     list-style: none;
   }
   
-  /* .delete-all {
-    margin-top: 10px;
-  } */
+ 
   
   .label {
     margin-left: 12px;
     padding-right: 3px;
   }
   
-  .radio-button {
+  .radio-btn {
     margin-left: 10px;
   }
   
-  .new-form {
-    display: inline-block;
-    text-align: left;
-    width: 50%;
-    height: auto;
-    border: solid black 2px;
-  }
   
-  .top-options {
+  
+  .boomark-box {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,7 +53,7 @@ header {
     text-align: center;
   }
   
-  .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button, .show-new-bookmark-box {
+  .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .new-bookmark-button, .show-new-bookmark-box {
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: 10px;
@@ -179,16 +169,16 @@ header {
     margin-bottom: 10px;
   }
   
-  .edit-bookmark-title {
+  .update-bookmark-title {
     margin-bottom: 20px;
   }
   
-  .edit-radio-buttons {
+  .update-radio-buttons {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  .edit-bookmark-url, .edit-bookmark-desc {
+  .update-bookmark-url, .update-bookmark-desc {
     margin-bottom: 10px;
   }
   
@@ -218,7 +208,7 @@ header {
       margin-bottom: 10px;
     }
     
-    .top-options {
+    .boomark-box {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -228,7 +218,7 @@ header {
       text-align: center;
     }
     
-    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button {
+    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-btn, .new-bookmark-button {
       margin-bottom: 5px;
       margin-top: 10px;
       margin-left: 10px;
@@ -341,15 +331,15 @@ header {
       margin-bottom: 10px;
     }
   
-    .edit-bookmark-title, .edit-bookmark-desc {
+    .update-bookmark-title, .update-bookmark-desc {
       margin-bottom: 20px;
     }
   
-    .edit-radio-buttons {
+    .update-radio-buttons {
       margin-bottom: 20px;
     }
   
-    .edit-bookmark-url {
+    .update-bookmark-url {
       margin-bottom: 10px;
     }
   
@@ -378,7 +368,7 @@ header {
       border: solid black 2px;
     }
     
-    .top-options {
+    .boomark-box {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -388,7 +378,7 @@ header {
       text-align: center;
     }
     
-    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-buttons, .new-bookmark-button {
+    .new-bookmark-desc, .new-bookmark-name, .new-bookmark-url, .radio-btn, .new-bookmark-button {
       margin-bottom: 5px;
       margin-top: 10px;
       margin-left: 10px;
@@ -399,7 +389,7 @@ header {
       width: 200px;
     }
   
-    .edit-radio-buttons {
+    .update-radio-buttons {
       margin-left: auto;
       margin-right: auto;
     }
@@ -496,21 +486,21 @@ header {
       margin-bottom: 10px;
     }
   
-    .edit-bookmark-title, .edit-bookmark-desc {
+    .update-bookmark-title, .update-bookmark-desc {
       margin-bottom: 20px;
     }
   
-    .edit-radio-buttons {
+    .update-radio-buttons {
       margin-bottom: 20px;
     }
   
-    .edit-bookmark-url {
+    .update-bookmark-url {
       margin-bottom: 10px;
     }
   
   
   
-    .edit-button {
+    .update-button {
       width: 50px;
       margin-bottom: 20px;
     }
@@ -528,12 +518,12 @@ header {
       text-align: center;
     }
   
-    .submit-edit-button {
+    .submit-update-button {
       margin-bottom: 15px;
       float: left;
     }
   
-    .delete-bookmark, .reduce, .expand {
+    .delete-bookmark, .less, .expand {
       width: 100px;
     }
   
@@ -547,7 +537,7 @@ header {
       margin-bottom: 10px;
     }
   
-    .edit-form {
+    .update-form {
       position: relative;
       right: 20px;
     }

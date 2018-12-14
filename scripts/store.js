@@ -1,4 +1,5 @@
 'use strict'
+/*global */
 
 const store = (function(){
 
@@ -21,24 +22,21 @@ const store = (function(){
         this.bookmarks = this.bookmarks.filter(bookmark => bookmark.id !== id);
     };
 
-    const filterByRating = function(){
-        return this.bookmarks.filter(bookmark => bookmark.rating >= rating);
-    };
 
-    const setError = function(err){
-        this.err = err;
+    const setError = function(error){
+        this.error = error;
     }
 
-
     return {      
-        bookmark: [],
+        bookmarks: [],
         adding:  false,
-        filter: 1,
+        filter: 0,
         error: null,
+
         addBookmark,
         findById,
         findAndUpdate,
         findAndDelete,
-        filterByRating,
-    }   
-}())
+        setError
+    };   
+}());
